@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="En NAMU somos apasionados por el buen café y la pastelería de calidad, los esperamos a pasar un buen momento es un espacio único, moderno y acogedor.">
+    <meta name="keywords"  content="Cafeteria, Cafe, Pasteleria, Tartas, Comida, Pet, Friendly, Olivos">
+    <title> NAMU Cafe | Cafetería de Especialidad</title>
+
+    <link rel="shortcut icon" href="../img/namuFavicon.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+    <!--BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!--Esto es un encabezado-->
+    <header class="header">        
+        <!--LOGO NAMU Cafe-->
+        <div class="logo">
+            <a href="../index.html"><img src="../img/namuLogo.webp" id="logi" alt="" width="100%" height="365"></a>
+        </div> 
+
+        <!--Menu de navegacion-->
+        <nav class="menu">
+            <ul>
+                <li><a  href="../index.html">Inicio</a></li>
+                <li><a class="active" href="../paginas/tienda.html">Tienda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Bienvenido a nuestra tiendita</h1>
+        <!--Presentacion TIENDA ONLINE-->
+        <section class="tienInicio">
+            <div class="tiendTxt">
+                <p>¿Te gustaría comer algo rico en la comodidad de tu casa? Valida tu codigo postal, elige, compra y espera que nostros
+                    nos encargamos de llevartelo a tu puerta</p>
+                <button id="miBoton" class="btn-secu btn-outline-dark">VALIDA ENTREGA CON CODIGO POSTAL</button>
+            </div>
+            <!--Bloque de imagenes-->
+            <div class="imgTest">
+                <div>
+                    <img src="../img/testA.webp" class="img-general, rounded-circle" alt="" width="300" height="290">
+                </div>
+            </div>
+        </section>
+
+        <!--BANNER-->
+        <div class="banner">
+            <div class="banner-container">
+            <h2>Tu carrito :</h2>
+            <p class="ver-carrito" id="verCarrito"><ion-icon name="cart"></ion-icon><span id="cantidadCarrito" class="cantidad-carrito"></span></p>
+            </div>
+        </div>
+
+        <!--Productos, Tienda Online-->
+        <section class="tiendita">
+            <div id="shopContent" class="shop-content"></div>
+        
+            <div id="modal-container" class="modal-container"></div>
+        </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <footer>
+    <!--Copyright-->
+    <section class="copy">
+        <p>Copyright © 2024 NAMU Cafe. All Rights Reserved.</p>
+    </section>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="../js/products.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/codigo.js"></script>
+
+    <!--ICONOS-->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
